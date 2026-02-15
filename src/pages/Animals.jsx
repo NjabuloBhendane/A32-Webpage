@@ -1,13 +1,16 @@
 function Animals() {
+  const animals = ["Cattle", "Goats", "Pigs", "Chickens"];
+
   return (
     <section>
       <h2>Our Animals</h2>
-      <ul>
-        <li>Cattle</li>
-        <li>Goats</li>
-        <li>Pigs</li>
-        <li>Chickens</li>
-      </ul>
+      <div className="animal-grid">
+        {animals.map((a) => (
+          <div key={a} className="animal-card">
+            {a}
+          </div>
+        ))}
+      </div>
     </section>
   );
 }

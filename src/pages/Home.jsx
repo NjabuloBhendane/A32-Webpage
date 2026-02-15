@@ -3,8 +3,8 @@ function Home() {
     <section>
       <h2>Welcome to A32 Meats</h2>
       <p>
-        We are a farm dedicated to ethical livestock farming and quality meat
-        production.
+        We are a farm dedicated to ethical livestock farming and
+        quality meat production.
       </p>
     </section>
   );
